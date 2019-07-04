@@ -9,7 +9,7 @@
 import UIKit
 import MapKit
 
-class LocationSearchResultsViewController: UITableViewController {
+@objcMembers class LocationSearchResultsViewController: UITableViewController {
 	var locations: [Location] = []
 	var onSelectLocation: ((Location) -> ())?
 	var isShowingHistory = false

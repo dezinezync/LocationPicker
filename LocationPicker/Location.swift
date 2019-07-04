@@ -12,7 +12,7 @@ import CoreLocation
 import AddressBookUI
 
 // class because protocol
-public class Location: NSObject {
+@objcMembers public class Location: NSObject {
 	public let name: String?
 	
 	// difference from placemark location is that if location was reverse geocoded,

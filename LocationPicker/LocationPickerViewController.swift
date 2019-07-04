@@ -10,7 +10,7 @@ import UIKit
 import MapKit
 import CoreLocation
 
-open class LocationPickerViewController: UIViewController {
+@objcMembers open class LocationPickerViewController: UIViewController {
 	struct CurrentLocationListener {
 		let once: Bool
 		let action: (CLLocation) -> ()
